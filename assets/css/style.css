@@ -309,6 +309,17 @@ section .texte h3 {
     letter-spacing: 2px;
 }
 
+.download {
+    width: 200px;
+    margin: auto;
+    transform: translateX(25%);
+}
+
+.download p {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
 /* 7 - HORAIRES
 ************************************************************************************************************************* */
@@ -381,6 +392,7 @@ footer .copyright {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;
 }
 
 /* 10 - MEDIA QUERIES
