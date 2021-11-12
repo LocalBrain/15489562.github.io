@@ -4,81 +4,437 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/media/images/la gourmandine chapeau.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>La Gourmandine, l'art de manger vite et bien...</title>
+
+    <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta2/css/all.css">
-    <title>La Gourmandine, l'art de manger vite et bien ...</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body>
+<body id="arrow-up">
     
-<div class="container">
+<!-- header section starts  -->
 
-    <header>
+<header class="header">
 
-        <div class="title">
-            <h1>La Gourmandine</h1>
-            <div class="line"></div>
-            <h2>L'art de manger vite et bien ...</h2>
-        </div>
+    <a href="#" class="logo">
+        <img src="images/media/images/LogoLaGourmandine.png" alt="">
+    </a>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="menu.html">Menus</a></li>
-                <li><a href="Horaire.html">Horaires</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar">
+        <a href="#home">accueil</a>
+        <a href="#menu">menu</a>
+        <a href="#contact">contact</a>
+    </nav>
 
-    </header>
-
-    
-    <section>
-        <div class="image">
-            <img src="assets/media/images/LogoLaGourmandine.png" alt="LogoLaGourmandine" title="LogoLaGourmandine">
-        </div>
-        <div class="texte">
-            <div class="text">
-            <h3>La Gourmandine, c’est quoi ?</h3>
-            <p>C’est des crêpes savoureuses et explosives, des boissons cool, le tout servi dans une ambiance acidulée. Cette crêperie née à Riberac en 2021, a plus d’une recette dans sa besace. Sa force c’est l’inventivité. Elle a su transformer la vie de ses clients avec sa livraison gratuite à domicile ou au bureau, mais surtout éveiller ses sens avec des recettes modernes et des boissons rafinées, c’est plus qu’une crêperie : c’est un concept.</p>
-        </div>
-        </div>
-    </section>
-
-
-    <div class="livraison">
-        <img src="assets/media/images/camion_livraison_Plan_de_travail_1-removebg-preview.png" alt="Camion" title="Camion">
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
     </div>
 
- 
+    <!-- <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div> -->
 
-    <footer>
-        <div class="images">
-            <img src="assets/media/images/footer/1588172536-770x271.jpg" alt="Ticket Restaurant Acceptés" title="Ticket Restaurant Acceptés">
-            <img src="assets/media/images/footer/images.png" alt="Accessible Handicapé" title="Accessible Handicapé">
-            <img src="assets/media/images/footer/Logo_GIE-CB.jpg" alt="Carte Bancaire Acceptées" title="Carte Bancaire Acceptées">
-            <img src="assets/media/images/footer/Logo_WiFi.svg.png" alt="Wifi Gratuite" title="Wifi Gratuite">
+    <!-- <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-3.png" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-4.png" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div> -->
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h1>La Gourmandine</h1>
+        <h3>L'art de manger vite et bien...</h3>
+        <p>Livraison gratuite à domicile*</p>
+        <a href="images/media/images/download/Menu1.jpg" download="images/media/images/download/Menu1.jpg" class="btn">Menu 1</a>
+        <a href="images/media/images/download/Menu2.jpg" download="images/media/images/download/Menu2.jpg" class="btn">Menu 2</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>A propos</span> de nous </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/media/crepe1-crepe-sale.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3><span>La Gourmandine</span>, c'est quoi ?</h3>
+            <p>C’est des crêpes savoureuses et explosives, des boissons cool, le tout servi dans une ambiance acidulée. Cette crêperie née à Riberac en 2021, a plus d’une recette dans sa besace. Sa force c’est l’inventivité. Elle a su transformer la vie de ses clients avec sa livraison gratuite à domicile ou au bureau, mais surtout éveiller ses sens avec des recettes modernes et des boissons rafinées, c’est plus qu’une crêperie : c’est un concept.</p>
+            <p>Chez La Gourmandine nous souhaitons avant tout vous proposer une autre forme de restauration d’entreprise. Sans priver les employés de la rapidité dont ils ont besoin lors de la pause déjeuner, nous avons pour objectif de combiner le « manger vite, mais manger sain et équilibré ». Parce que oui, c’est possible !</p>
+            <!-- <a href="#" class="btn">learn more</a> -->
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<!-- <section class="menu" id="menu">
+
+    <h1 class="heading"> our <span>menu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/menu-1.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-2.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-3.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-4.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-5.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-6.png" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- menu section ends -->
+
+<!-- <section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- review section starts  -->
+
+<!-- <section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-1.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-2.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
         </div>
         
-        <div class="footer-over">
-        <div class="logo-footer">
-            <p><img src="assets/media/images/LogoLaGourmandine.png" alt="Logo Footer" title="Logo Footer"></p>
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-3.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
         </div>
-        <div class="legal-mension">
-        <p>Tickets restaurant acceptés - Minimum de commande : 9<sup>€</sup> - Nous n'acceptons pas les chèques</p>
-        <p>Merci de préparer l'appoint - Tarif sous réserve d'erreur typographique ou de modifications ultérieures</p>
-        <p>Reproduction totale ou partielle interdite - La direction se reserve le droit de modifier ou de supprimer ses offres sans préavis ni indemnité</p>
-        <p>Siret : 900 335 456 00019</p>
+
+    </div>
+
+</section> -->
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contactez</span> nous </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22473.95554854793!2d0.32266638199435704!3d45.242849529342216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ff945755004a49%3A0xe414b82ee1f5bffd!2s24600%20Rib%C3%A9rac!5e0!3m2!1sfr!2sfr!4v1636723496459!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" height="500px"></iframe>
+
+            
+            <div class="phone-number">
+                <div class="number">
+                <p><a href="tel:0553808750"><i class="fal fa-phone-volume"></i> 05 53 80 87 50</a> <span>  </span><a href="tel:0788662067"><i class="fad fa-mobile-alt"></i> 07 88 66 20 67</a></p>
+                <p></p>
+                </div>
+                <div class="horaire">
+                    <p>NOUS VOUS ACCUEILLONS DANS NOTRE RESTAURANT DU MARDI AU VENDREDI :</p>
+                    <p><span>De 11h00 à 14h00</span></p>
+                    <p><span>De 18h00 à 22h00</span></p>
+                    <p>SAMEDI ET DIMANCHE</p>
+                    <p><span>De 18h00 à 22h00</span></p>
+                </div>
+            </div>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- blogs section starts  -->
+
+<!-- <section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
         </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
         </div>
-        <div class="copyright">
-            <p><strong>© - riberac imprimerie 24600</strong></p>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
         </div>
-    </footer>
+
+    </div>
+
+</section> -->
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <p><a href="#arrow-up"><i class="fal fa-sort-up"></i></a></p>
+    </div>
+
+    <div class="legal-mension">
+    <p>Tickets restaurant acceptés - Minimum de commande : 9€* - Nous n'acceptons pas les chèques</p>
+    <p>Merci de préparer l'appoint - Tarif sous réserve d'erreur typographique ou de modifications ultérieures</p>
+    <p>Reproduction totale ou partielle interdite - La direction se reserve le droit de modifier ou de supprimer ses offres sans préavis ni indemnité</p>
+    <p>Siret : 900 335 456 00019</p>
+    </div>
+    <div class="credit">créer par <span><a href="https://riberacimprimerie.fr" target="_blank">riberac-imprimerie</a></span> | © tous droits reservés</div>
+
+</section>
+
+<!-- footer section ends -->
 
 
-</div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
 
 </body>
 </html>
