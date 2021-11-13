@@ -12,10 +12,20 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="animate.css">
 
 </head>
 <body id="arrow-up">
+
     
+<!-- loader section  -->
+
+<div class="preloader">
+    <div class="preloader-img">
+        <span class="loading-animation animate-flicker"><img src="images/loading.GIF" alt="loading" title="loading"/></span>
+    </div>
+</div>
+
 <!-- header section starts  -->
 
 <header class="header">
@@ -141,8 +151,28 @@
 
 <!-- custom js file link  -->
 
-<script src="js/script.js"></script>
 
+<script src="js/jquery.js"></script>
+<script src="js/plugins.js"></script>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+$(document).ready(function(){
+   'use strict';
+    jQuery('#headerwrap').backstretch([
+      "assets/img/bg/bg1.jpg",
+      "assets/img/bg/bg2.jpg",
+      "assets/img/bg/bg3.jpg",
+    ], {duration: 8000, fade: 500});
+});
+</script>
 </body>
 </html>
 
