@@ -27,3 +27,20 @@ window.onscroll = () =>{
     searchForm.classList.remove('active');
     cartItem.classList.remove('active');
 }
+
+
+///////// NAVBAR
+let lastScrollTop = 0;
+scroller = document.getElementById('scroll');
+
+window.addEventListener('scroll', function() {
+  const scrollTop = window.pageTOffset ||
+  this.document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    scroller.style.top="-180px";
+  } else {
+      scroller.style.top="0";
+  }
+  lastScrollTop = scrollTop;
+});
