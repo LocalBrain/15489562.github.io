@@ -135,7 +135,7 @@ nav.navbar.active {
 }
 
 .header .icons div:hover {
-    color: var(--main-color);
+    color: var(--black);
 }
 
 #menu-btn {
